@@ -43,7 +43,7 @@ body,html{
 header{
     width:100vw;
     height: 100vh;
-    background-image:url("https://d1bvpoagx8hqbg.cloudfront.net/originals/large-double-room-rent-oakwood-piccadilly-line-4e52893483228fcee157cca9dcddcfdc.jpg") ;
+    background-image:url("pexels-cottonbro-studio-7113744.jpg") ;
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -124,57 +124,6 @@ p{
 .events .ctn{
     margin-top: 30px;
 }
-.explore{
-    width: 100%;
-    height: 100vh;
-    background-image:url('https://i.pinimg.com/originals/18/0a/0c/180a0c9cd72f33acc25d49e9eecb8d4b.jpg');
-    background-position:center;
-    background-size: cover;
-    background-repeat:no-repeat ;
-    display: flex;
-    align-items: center;
-}
-.explore-content{
-    width:60%;
-    padding: 300px;
-    color:black ;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.explore-content h1{
-    font-size: 7vmin;
-}.explore-content h1:hover{
-    transform:scale(1.1);
-    transition: 0.3s ease;
-    
-}
-.explore-content .line{
-    margin-bottom: 50px;
-}
-.explore-content p{
-    color:black;
-}
-.explore-content .ctn{
-    margin-top: 40px;
-}
-.tours .row .col{
-    width:50%;
-}
-.tours .image-gallery{
-     display: flex;
-     flex-wrap: wrap;
-}
-.image-gallery img{
-    width:200px;
-    margin:10px;
-    
-}
-.content-col h1{
-    
-    font-size: 7vmin;
-    color:#484872;
-}
 .content-col .line{
     margin-left: -1px;
 }
@@ -203,10 +152,17 @@ p{
     color:#fc036b;
     box-shadow: 2px 2px 5px #00000056;
     }
-    li:hover{
+li:hover{
         color:#fc036b;
         cursor: pointer;
     }
-    .nav-links li a{
+.nav-links li a{
         color:white;
     }
+.header-content{
+    color: white;
+
+}
+.header-content a{
+    color: white;
+}
