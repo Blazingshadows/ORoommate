@@ -43,8 +43,7 @@ body,html{
 header{
     width:100vw;
     height: 100vh;
-    background-image:url("pexels-hayder-s-15688799.jpg") ;
-    background-position:70%;
+    background-image:url("https://d1bvpoagx8hqbg.cloudfront.net/originals/large-double-room-rent-oakwood-piccadilly-line-4e52893483228fcee157cca9dcddcfdc.jpg") ;
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -125,7 +124,24 @@ p{
 .events .ctn{
     margin-top: 30px;
 }
-
+.explore{
+    width: 100%;
+    height: 100vh;
+    background-image:url('https://i.pinimg.com/originals/18/0a/0c/180a0c9cd72f33acc25d49e9eecb8d4b.jpg');
+    background-position:center;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    display: flex;
+    align-items: center;
+}
+.explore-content{
+    width:60%;
+    padding: 300px;
+    color:black ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .explore-content h1{
     font-size: 7vmin;
 }.explore-content h1:hover{
@@ -194,19 +210,3 @@ p{
 .nav-links li a{
         color:white;
     }
-.header-content h1{
-    color: black;
-}
-.header-content{
-    display: block;
-    position: relative;
-    bottom : 145px;
-    margin: 53px;
-    padding: 28px;
-    background-color: beige;
-    align-items: center
-}
-#paragraph p{
-    color:black;
-    font-size:25px;
-}
