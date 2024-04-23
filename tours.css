@@ -43,7 +43,7 @@ body,html{
 header{
     width:100vw;
     height: 100vh;
-    background-image:url("https://d1bvpoagx8hqbg.cloudfront.net/originals/large-double-room-rent-oakwood-piccadilly-line-4e52893483228fcee157cca9dcddcfdc.jpg") ;
+    background-image:url("Cozy\ wibes.jpeg");
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -210,3 +210,6 @@ p{
 .nav-links li a{
         color:white;
     }
+.header-content h1{
+    color: white;
+}

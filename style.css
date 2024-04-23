@@ -277,4 +277,6 @@ li:hover{
 .events .row .col{
     margin-left: 100px;
 }
-
+.explore-content p{
+    font-size:30px; 
+}
